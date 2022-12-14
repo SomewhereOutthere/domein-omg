@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:ital,wght@0,300;0,400;0,700;0,800;1,700&display=swap');
+
+
+
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -10,13 +14,21 @@ Table of Contents:
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
 
-
+/*COLORS (grijs #899CA0 en donkergroen #1C2B32)*/
 
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x :hidden;
+}
 
 /*////////////////////////
     2. Typography
@@ -28,22 +40,275 @@ Table of Contents:
     3. Areas
 ////////////////////////*/
 
+main {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 
+
+}
 
 /*///////////// 3.1 Header /////////////*/
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+
+}
+
+h2 {
+    text-align: center;
+}
+.header-text {
+    text-align: center;
+
+
+
+
+    /*margin-top: 30px;*/
+
+}
+
+.header-text > p {
+    font-size: 10px;
+
+}
+
+.url-field {
+    border-radius: 15px 0px 0px 15px;
+    background-color: transparent;
+    padding: 5px;
+    color: black;
+    margin: -10px;
+}
+
+.availabitlity-button {
+    border-radius: 0px 15px 15px 0px;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+
+.input-button-field {
+    padding: 20px;
+}
+
+header {
+    background: url('../assets/images/mountains.jpg') no-repeat center local;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 15%;
+
+
+}
+
+
+
 
 
 
 /*///////////// 3.2 Testimonial /////////////*/
 
+.quote-sign {
+    position: relative;
+    width: 17px;
+    left: -20px;
+    top: -110px;
+}
 
+.quote-sign2 {
+    position: relative;
+    width: 17px;
+    left: -325px;
+    top: -80px;
+}
+
+.testimonials {
+
+    left: -20px;
+}
+
+
+.subtext-testimonials {
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+
+.testimonial1 {
+    border: 1px #899CA0;
+    margin: 60px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 4px 12px;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.testimonials-customers1 {
+    /*position: relative;*/
+    top: 10px;
+
+
+}
+
+
+
+.jane-pic {
+    width: 44px;
+    height: 44px;
+
+}
+
+.john-pic {
+    width: 44px;
+    height: 44px;
+
+}
+
+/*.customer-1 {*/
+/*    position: relative;*/
+/*    left: -155px;*/
+/*    top: -20px;*/
+/*}*/
+
+.customer2 {
+    display: inline-block;
+}
+.testimonial2 {
+/*.testimonials-customers2 {*/
+    border: 1px #899CA0;
+    margin: 50px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 4px 12px;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.testimonials-customers2 {
+    top: 50px;
+
+}
+
+
+.customer-1 {
+    display: inline-block;
+
+}
+
+.pic-sig-jane {
+
+}
 
 /*///////////// 3.3 Support /////////////*/
+
+.callcenter-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  }
+
+
+.link-support {
+    color: #899CA0;
+    text-underline: #899CA0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.text-support {
+    /*text-align: left;*/
+    margin: 20px;
+    /*left: 160px;*/
+    /*padding: 20px;*/
+}
+
+
+.contact-button  {
+    background-color: black;
+    color: white;
+    border-radius: 15px 15px 15px 15px;
+    padding: 10px;
+    margin: 1px;
+}
+
+.we-rdy-for-u {
+    margin: 40px;
+}
 
 
 
 /*///////////// 3.4 Faq /////////////*/
 
+.faq {
+
+    margin: 30px;
+    left:30px;
+}
+
+
+
+details {
+    border: transparent;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+    text-align: left;
+
+
+
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+    background-color: white;
+
+
+}
+
+details[open] {
+    padding: .5em;
+    background-color: #899CA0;
+    border-radius: 15px 15px 15px 15px;
+    /*border-radius: 10px 10px 10px 10px;*/
+    /*background-color: #899CA0;*/
+    /*padding: 2px 6px;*/
+    /*margin: 0;*/
+
+}
+
+details[open] summary {
+    border-bottom: transparent;
+    margin-bottom: .5em;
+
+}
+
+.end-of-page-adjust {
+
+left: -20px;
+}
 
 
 /*///////////// 3.5 Footer /////////////*/
+
+.footer-copyright {
+    background-color: black;
+    color: white;
+    padding: 30px;
+
+    bottom: -450px;
+    width: 2000px;
+    text-align: center;
+
+}
